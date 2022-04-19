@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_app/widgets/big_text.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -21,7 +22,7 @@ class _MainPageState extends State<MainPage> {
             children: [
               Column(
                 // ignore: prefer_const_literals_to_create_immutables
-                children: [Text("Country"), Text("City")],
+                children: [BigText(text: "Arkive"), Text("City")],
               ),
               Container(
                 width: 45,
